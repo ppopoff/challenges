@@ -50,7 +50,7 @@ case class Cell(var number: Int, var marked: Boolean):
 
 
 // supply number to board
-implicit class BoardExt(board: Board):
+extension (board: Board)
 
   /*
    * Return the transponed version of matrix
